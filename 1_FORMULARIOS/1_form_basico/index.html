@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários atv</title>
+</head>
+<body>
+    <form>
+        <div>
+            <p>Compre quantos carros quiser.</p>
+            <Input type="number" id="carros" name="carros"></Input>
+            <label for="Aston Martin Vantage V12">Aston Martin Vantage V12.</label>
+        </div>
+        <div>
+            <Input type="password" id="senha" name="senha"></Input>
+            <label for="senha">Coloque a senha do cartão.</label>  
+          <div>
+            <input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 00000-0000">
+            <label for="hora-desejada">Hora desejada para a entrega</label>
+        </div> 
+             <input type="date" id="dtentr" name="dtentr">
+             <label for="dtentr">Data de entrega</label>
+        <div>
+        
+        </div>
+        
+        <div>
+            <label for="estado">Estado para entrega</label>
+	        <select id="estado" name="estado">
+                <option value="SP">SP</option>
+		        <option value="RJ">RJ</option>
+		        <option value="PB">PB</option>
+                <option value="SP">MG</option>
+		        <option value="RJ">BA</option>
+		        <option value="PB">RS</option>
+            </select>
+        </div>
+        
+       
+        <div>
+            <p>Proprietário:</p>
+         </div>  
+         <div>
+            <input type="radio" id="Lucas" name="feio">
+            <label for="Lucas">Lucas</label>
+        
+        </div>
+        <div>
+            <input type="radio" id="Antony" name="feio">
+            <label for="Everton">Antony</label>
+        </div>
+   
+        <div>
+            <input type="radio" id="Everton" name="feio">
+            <label for="Everton">Everton</label>
+        </div>
+        <div>
+            <input type="radio" id="Gustavo" name="feio">
+            <label for="Gustavo">Gustavo</label>
+        </div>
+        <button>Enviar</button>
+     </form>
+</body>
+</html>
